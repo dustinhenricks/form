@@ -1,0 +1,28 @@
+body 
+  {background-image:url(https://wallpapercave.com/wp/wp5269881.jpg);
+background-size:no-repeat;}
+
+.main
+{background:linear-gradient(to bottom right, rgba(255,255,255,75%), rgba(255,250,250,90%),rgba(255,200,255,90%));
+text-align:center;
+border:none; border-radius: 20px;
+margin: auto; padding:20%
+max-height: 80%;
+max-width:80%;
+box-shadow:10px, 20px, 12px, 100px, pink}
+input {margin-top:5}
+
+fieldset 
+{box-shadow: -20px 20px 10px rgba(255,150,255,20%);}
+
+.submit{width:300px; border-radius:5px;
+border-color: rgba(255,200,255,80%);
+background-color: rgba(255,255,255,80%);
+cursor: pointer;
+box-shadow: 2px 2px 2px rgba(255,255,255,50%)}
+
+textarea {margin-right:78;}
+
+label {vertical-align:-1}
+
+.comments {vertical-align:32}
