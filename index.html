@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="https://github.com/dustinhenricks/form/blob/main/styles.css">
+    <style type="text/css">
+body 
+  {background-image:url(https://wallpapercave.com/wp/wp5269881.jpg);
+background-size:no-repeat;}
+
+.main
+{background:linear-gradient(to bottom right, rgba(255,255,255,75%), rgba(255,250,250,90%),rgba(255,200,255,90%));
+text-align:center;
+border:none; border-radius: 20px;
+margin: auto; padding:20%
+max-height: 80%;
+max-width:80%;
+box-shadow:10px, 20px, 12px, 100px, pink}
+input {margin-top:5}
+fieldset 
+{box-shadow: -20px 20px 10px rgba(255,150,255,20%);}
+.submit{width:300px; border-radius:5px;
+margin: center;
+border-color: rgba(255,200,255,80%);
+background-color: rgba(255,255,255,80%);
+cursor: pointer;
+box-shadow: 2px 2px 2px rgba(255,255,255,50%)}
+textarea {margin-right:78px;}
+label {vertical-align:-1}
+.comments {vertical-align:32px}
+</style>
     <title>Survey Form</title>
+    <link rel=“stylesheet” type="text/css" href=“css/styles.css”/>
     <meta charset="UTF-8">
-    <meta name"viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
       </head><br><br>
   <body>
     <fieldset class="main">
@@ -34,7 +60,7 @@
           <input type="checkbox" id="eat" required value="yes"><br>
         <label for="honest">You ARE being honest, right?!</label>
         <input type="checkbox" id="honest" required value="duh"><br><br>
-          <label class="comments" for="comments">Comments: </label> <textarea rows="5" cols="40">
+          <label class="comments" for="comments">Comments: </label> <textarea rows="5" cols="40" id="comments" placeholder="This is why I like candy"></textarea>
           </textarea><br>
         <input type="Submit" id="submit" class="submit">
         </form>
